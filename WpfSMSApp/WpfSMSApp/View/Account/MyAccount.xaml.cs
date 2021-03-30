@@ -36,7 +36,7 @@ namespace WpfSMSApp.View.Account
 
         private void BtnEditMyAccount_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new EditAccount()); // 계정정보 수정 화면으로 변경
         }
     }
 }
